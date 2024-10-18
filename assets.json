@@ -245,5 +245,21 @@
                                    "3.0.8-jammy"
                                ]
                  }
+    },
+  {
+    "version":  "2.5.9",
+    "url":  "https://github.com/FirebirdSQL/firebird/releases/download/R2_5_9/FirebirdCS-2.5.9.27139-0.amd64.tar.gz",
+    "sha256":  "59b1f64db56f50c94ee47babd1bf551cacebd0bdf7f668d6250d18a621390b4e",
+    "tags":  {
+      "bookworm":  [
+        "3.0.8"
+      ],
+      "bullseye":  [
+        "3.0.8-bullseye"
+      ],
+      "jammy":  [
+        "3.0.8-jammy"
+      ]
     }
+  }
 ]

@@ -20,7 +20,7 @@ RUN set -eux; \
     apt-get install -y --no-install-recommends \
         libatomic1 \
         libicu70 \
-        $([ $FIREBIRD_MAJOR -eq 3 ] && echo 'libncurses5' || echo 'libncurses6') \
+        $([ $FIREBIRD_MAJOR -le 3 ] && echo 'libncurses5' || echo 'libncurses6') \
         libtomcrypt1 \
         libtommath1 \
         netbase \
